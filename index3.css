@@ -10,8 +10,7 @@
   left: 25%;
   background-color: white;
   z-index: 4;
-  transition-delay: 2s;
-  transition-duration: 5s;
+
 }
 
 .Search-box i {
@@ -70,8 +69,7 @@
   border-radius: 15px;
   left: 75%;
   z-index: 10;
-  transition-delay: 2s;
-  transition-duration: 5s;
+ 
 }
 
 .login-button .top-part {
