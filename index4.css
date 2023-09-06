@@ -1,0 +1,388 @@
+/* dark mode.......................... */
+.dark-theme {
+   background-color: #1a1919;
+   color: white;
+}
+
+.dark-navbar {
+   background-color: #1a1919;
+   color: white;
+}
+
+.dark-list-container {
+   background-color: #1a1919;
+   color: white;
+}
+
+.dark-panel {
+   background-color: #1a1919;
+   color: white;
+}
+
+.dark-panel .box {
+   background-color: #263238;
+   color: white;
+}
+
+.dark-panel .box:hover {
+   background-color: #363434;
+
+}
+
+.dark-panel .All {
+   background-color: white;
+   color: black;
+}
+
+
+/* dark-side-bar................................................... */
+.dark-side-bar {
+   background-color: #1a1919;
+   color: white;
+}
+
+.dark-side-bar .boxs {
+   background-color: #424242;
+   color: white;
+}
+
+.dark-side-bar .shortcuts-links a {
+   color: white;
+}
+
+.dark-side-bar .shortcuts-links a img {
+   color: white;
+}
+
+.dark-side-bar .shortcuts-links a:hover {
+   background-color: #424242;
+}
+
+.dark-side-bar .subscribers h2 {
+   background-color: #1a1919;
+   color: white;
+}
+
+.dark-side-bar .subscribers a {
+   background-color: #1a1919;
+   color: white;
+}
+
+.dark-side-bar .Explore a {
+   background-color: #1a1919;
+   color: white;
+}
+
+.dark-side-bar .Explore h2 {
+   background-color: #1a1919;
+   color: white;
+}
+
+.dark-side-bar .subscribers a:hover {
+   background-color: #424242;
+}
+
+.dark-side-bar .Explore a:hover {
+   background-color: #424242;
+}
+
+/* 
+dark-navbar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,  */
+.dark-navbar .bar:hover {
+   background-color: #c6c1c1;
+}
+
+.dark-navbar .voice {
+   background-color: #616161;
+}
+
+.name p {
+   color: #EEEEEE;
+}
+
+.dark-navbar .nav-search {
+   background-color: #757575;
+}
+
+.dark-navbar .search-input {
+   background-color: #131313;
+   color: white;
+}
+
+.dark-navbar .search-icon {
+   background-color: #757575;
+   color: white;
+}
+
+.dark-navbar .search-icon i {
+   font-size: 19px;
+}
+
+.dark-navbar .vedio:hover {
+   background-color: #757575;
+}
+
+.dark-navbar .bell:hover {
+   background-color: #757575;
+}
+
+/* dark-list-container............................................ */
+
+.dark-list-container .video-info a {
+   color: white
+}
+
+.dark-login-button {
+   background-color: #1a1919;
+   color: white;
+}
+
+.dark-login-button .top-part {
+   background-color: #1a1919;
+   color: white;
+}
+
+.dark-login-button .top-part a {
+   background-color: #1a1919;
+   color: #6868d8;
+}
+
+.dark-login-button .channel .paragraph {
+   color: white;
+
+
+}
+
+.dark-login-button .channel .paragraph i {
+   color: white;
+}
+
+.dark-login-button .channel .paragraph:hover {
+   background-color: #3e3b3b;
+}
+
+.dark-Search-box {
+   background-color: #1a1919;
+   color: white;
+}
+
+.dark-Search-box a {
+   color: white;
+}
+
+.dark-Search-box .remove {
+   color: #8484e7;
+}
+
+.dark-Search-box a:hover {
+   background-color: #4b4c4d;
+}
+
+.dark-Apperance {
+   background-color: #1a1919;
+   color: white;
+}
+
+.dark-Apperance p {
+   color: #c2bdbd;
+}
+
+.dark-Apperance .Mode {
+   color: #d8d0d0;
+}
+
+.dark-Apperance .Mode:hover {
+   background-color: #424242;
+   color: white;
+}
+
+.dark-Apperance .Apperance-back {
+   background-color: #1a1919;
+   color: white;
+}
+
+.dark-Apperance .Apperance-back i {
+   color: #c7c3c3;
+}
+
+.dark-Apperance .Apperance-back h2 {
+   color: #c7c3c3;
+}
+
+.dark-color {
+   background-color: black !important;
+}
+
+.dark-new-side-bar .side-box {
+   background-color: #353434;
+}
+
+.dark-new-side-bar .side-box i {
+   color: white;
+}
+
+.dark-newside-bar {
+   background-color: #353434;
+}
+
+.dark-newside-bar .side-box i {
+   color: white;
+}
+
+.dark-newside-bar .side-box p {
+   color: white;
+}
+
+@media (min-width:701px) and (max-width:977px) {
+   .dark-new-side-bar .side-box {
+      background-color: #1a1919;
+
+   }
+
+   .dark-new-side-bar .side-box:hover {
+      background-color: #353434;
+   }
+
+}
+
+@media (min-width:977px) and (max-width:1164px) {
+   .dark-new-side-bar .side-box {
+      background-color: #1a1919;
+
+   }
+
+   .dark-new-side-bar .side-box:hover {
+      background-color: #353434;
+
+   }
+}
+
+/* search-list-container............................................................. */
+.search-list-container {
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 25px;
+   margin-top: 130px;
+   margin-left: 16%;
+}
+
+.search-list-container .video-list {
+   display: flex;
+   margin-bottom: 20px;
+
+}
+
+.search-list-container .video-list .user {
+   margin-left: 40px;
+}
+
+.search-list-container .user img {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+}
+
+.search-list-container .video-info {
+   margin-left: 25px;
+   margin-bottom: 25px;
+   width: 620px;
+}
+
+.search-list-container .video-info a {
+   font-size: 25px;
+}
+
+.search-list-container.video-info p {
+
+   margin-bottom: 5px;
+}
+
+
+@media (min-width:450px) and (max-width:700px) {
+   .search-list-container {
+      display: flex;
+      padding-bottom: 25px;
+      margin-top: 130px;
+      margin-left: 16%;
+   }
+
+   .search-list-container .video-list {
+      margin-bottom: 20px;
+      display: flex;
+      margin-left: 20px;
+      flex-direction: column
+   }
+
+   .search-list-container .video-list video {
+      border-radius: 10px;
+      height: 219px;
+      width: 390px;
+
+   }
+
+   .search-list-container .video-info a {
+      font-size: 18px;
+   }
+
+   .search-list-container .video-list .user {
+      margin-left: 20px;
+   }
+
+   .search-list-container .user img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+   }
+
+   .search-list-container .video-info {
+      margin-left: 13px;
+      width: 350px;
+   }
+}
+
+
+
+
+
+
+@media (max-width:450px) {
+   .search-list-container {
+      display: flex;
+      padding-bottom: 25px;
+      margin-top: 130px;
+      margin-left: 16%;
+   }
+
+   .search-list-container .video-list {
+      margin-bottom: 20px;
+      display: flex;
+      margin-left: -13px;
+      flex-direction: column
+   }
+
+   .search-list-container .video-list video {
+      border-radius: 10px;
+      height: 219px;
+      width: 390px;
+
+   }
+
+   .search-list-container .video-info a {
+      font-size: 18px;
+   }
+
+   .search-list-container .video-list .user {
+      margin-left: 7px;
+   }
+
+   .search-list-container .user img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+   }
+
+   .search-list-container .video-info {
+      margin-left: 13px;
+      width: 350px;
+   }
+}

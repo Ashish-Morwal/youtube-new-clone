@@ -1,0 +1,380 @@
+/* Adding javascript */
+.small-sidebar {
+    width: 5%;
+}
+
+.small-sidebar:hover {
+    width: 5%;
+}
+.small-sidebar::-webkit-scrollbar{
+  height:0;
+}
+
+
+.small-sidebar .Explore {
+    display: none;
+}
+
+.small-sidebar .subscribers {
+    display: none;
+}
+
+.small-sidebar .shortcuts-links a {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -7px;
+    left: 12px;
+}
+
+.small-sidebar .shortcuts-links p {
+    position: relative;
+    font-size: 12px;
+    left: -7px;
+}
+
+.small-sidebar .shortcuts-links img {
+    position: relative;
+    width: 28px;
+    left: 3px;
+    top: -4px;
+}
+
+.small-sidebar .boxs {
+    background-color: white;
+}
+
+.small-sidebar .shortcuts-links hr {
+    width: 100px;
+}
+
+/* .hidden-sidebar {
+    position: fixed;
+    display: flex;
+    bottom: -10%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 5%;
+    height: 100vh;
+    z-index: 2;
+}
+
+.hidden-sidebar p {
+    font-size: 12px;
+    color: gray;
+    position: relative;
+    top: 4px;
+}
+
+.hidden-sidebar .side-box {
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 50%;
+    padding: 20% 15% 20% 15%;
+
+}
+
+.hidden-sidebar .side-box i {
+    font-size: 1.5rem;
+    color: #6c6b6b;
+} */
+.new-list-container {
+    width: 93%;
+    position: relative;
+    right: 9%;
+}
+
+.new-list-container .video-list {
+    width: 321px;
+}
+
+.new-list-container .video-list video {
+    width: 320px;
+    height: 180px;
+}
+
+.new-panel {
+    width: 96%;
+    position: fixed;
+    left: 13px;
+}
+
+.new-panel .panel-options {
+    width: 95%;
+    margin-right: -57px;
+}
+
+.new-panel .panel-options .box {
+    position: relative;
+    left: 36%;
+}
+
+@media (max-width:450px) {
+    /* .hidden-sidebar {
+        display: none;
+    }
+
+    .new-panel {
+        width: 100%;
+        position: fixed;
+        left: 2px;
+        margin-left: 0px;
+    }
+
+    .new-panel .panel-options {
+        position: relative;
+        left: -23px;
+        width: 95%;
+    }
+
+    .new-panel .panel-options .box {
+        position: relative;
+        left: 273%;
+    }
+
+    .bar-logo {
+        display: none;
+    }
+
+    .Youtube-logo {
+        position: relative;
+        left: -12px;
+    }
+
+    .new-list-container .video-list {
+        width: 356px;
+    }
+
+    .new-list-container .video-list video {
+        width: 343px;
+        height: 194px;
+    } */
+
+    /* Adding javascript */
+    .small-sidebar {
+        display: none;
+    }
+
+    /* .hidden-sidebar {
+        position: fixed;
+        display: flex;
+        bottom: -10%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        width: 5%;
+        height: 100vh;
+        z-index: 2;
+    } */
+
+    /* .hidden-sidebar p {
+        font-size: 12px;
+        color: gray;
+        position: relative;
+        top: 4px;
+    }
+
+    .hidden-sidebar .side-box {
+        text-align: center;
+        margin-left: 10px;
+        margin-bottom: 50%;
+        padding: 20% 15% 20% 15%;
+
+    }
+
+    .hidden-sidebar .side-box i {
+        font-size: 1.5rem;
+        color: #6c6b6b;
+    } */
+
+    .new-panel {
+        width: 95%;
+       position: fixed;
+       left: 2px;
+       margin-left: 0px;
+      height: 41px;
+  }
+
+   .new-panel .panel-options {
+       position: relative;
+       left: -23px;
+       width: 95%;
+   }
+
+   .new-panel .panel-options .box {
+       position: relative;
+       left: 23%;
+   }
+
+   .bar-logo {
+       display: none;
+   }
+
+   .Youtube-logo {
+       position: relative;
+       left: -12px;
+   }
+
+   .new-list-container .video-list {
+       width: 356px;
+   }
+
+   .new-list-container .video-list video {
+       width: 343px;
+       height: 194px;
+   }
+
+  .new-list-container {
+      width: 93%;
+      position: relative;
+      right: 11%;
+  }
+
+  .new-list-container .video-list {
+      width: 350px;
+  }
+
+  .new-list-container .video-list video {
+      width: 348px;
+      height: 197px;
+  }
+
+  .new-panel {
+      width: 100%;
+      position: fixed;
+      left: -7px;
+  }
+
+  .new-panel .panel-options {
+      width: 95%;
+      margin-right: -57px;
+  }
+
+  .new-panel .panel-options .box {
+      position: relative;
+      left: 287%;
+  }
+
+}
+
+
+
+
+
+
+
+  @media (min-width:451px) and (max-width:700px){
+  
+    .new-list-container .video-list video {
+      width: 380px;
+      height: 213px;
+  }
+    .new-list-container .video-list{
+      width: 380px;
+    }
+    .new-list-container{
+      width: 93%;
+      position: relative;
+      right: 6%;
+    }
+      .new-panel {
+        width: 97%;
+        position: fixed;
+        left: 30px;
+        margin-left: 0px;
+        height: 41px;
+  }
+     .new-panel .panel-options .box {
+       position: relative;
+       left: 216%;
+   }
+
+}
+@media (min-width:701px) and (max-width:977px) {
+  .new-list-container .video-list video {
+      width: 295px;
+      height: 166px;
+  }
+    .new-list-container .video-list{
+      width: 295px;
+    }
+    .new-list-container{
+      width: 90%;
+      position: relative;
+      right: 5%;
+    }
+    .new-panel {
+        width: 97%;
+        position: fixed;
+        left: 30px;
+        margin-left: 0px;
+        height: 41px;
+  }
+     .new-panel .panel-options .box {
+       position: relative;
+       left: 130%;
+   }
+}
+@media (min-width:977px) and (max-width:1164px)
+{
+  .new-list-container .video-list video {
+      width: 295px;
+      height: 166px;
+  }
+    .new-list-container .video-list{
+      width: 295px;
+    }
+    .new-list-container{
+      width: 90%;
+      position: relative;
+      right: 5%;
+    }
+    .new-panel {
+        width: 97%;
+        position: fixed;
+        left: 30px;
+        margin-left: 0px;
+        height: 41px;
+  }
+     .new-panel .panel-options .box {
+       position: relative;
+       left: 130%;
+   }
+}
+
+
+@media (min-width:1164px) and (max-width:1402px)
+{
+  .small-sidebar .shortcuts-links a {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -7px;
+}
+  .new-list-container .video-list video {
+      width: 310px;
+      height: 174px;
+  }
+    .new-list-container .video-list{
+      width: 310px;
+    }
+    .new-list-container{
+      width: 90%;
+      position: relative;
+      right: 6%;
+    }
+    .new-panel {
+        width: 97%;
+        position: fixed;
+        left: 65px;
+        margin-left: 0px;
+        height: 41px;
+  }
+     .new-panel .panel-options .box {
+       position: relative;
+       left: 61%;
+   }
+}

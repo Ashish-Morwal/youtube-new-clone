@@ -1,0 +1,391 @@
+/* search box */
+.Search-box {
+  width: 32vw;
+  height: 51vh;
+  position: fixed;
+  box-shadow: 1px 0px 5px gray;
+  border-radius: 10px;
+  top: 59px;
+  bottom: 34%;
+  left: 25%;
+  background-color: white;
+  z-index: 4;
+  transition-delay: 2s;
+  transition-duration: 5s;
+}
+
+.Search-box i {
+  height: 15px;
+  width: 17px;
+  position: relative;
+  left: 10px;
+}
+
+.Search-box a {
+  display: flex;
+  position: relative;
+  padding: 6px 6px;
+  top: 2px;
+  justify-content: flex-start;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #232121;
+}
+
+.Search-box a:hover {
+  background-color: #d6cfcf;
+  border-radius: 5px;
+}
+
+.Search-box p {
+  position: relative;
+  left: 26px;
+
+}
+
+.Search-box .remove {
+  font-size: 12px;
+  position: relative;
+  left: 122px;
+  top: 2px;
+  text-decoration: underline;
+  color: blue;
+}
+
+.Search-box .remove:hover {
+  text-decoration: none;
+
+}
+
+/* ......................... */
+
+
+.login-button {
+  width: 300px;
+  height: 722px;
+  position: fixed;
+  box-shadow: 1px 1px 9px gray;
+  background-color: white;
+  top: 15px;
+  border-radius: 15px;
+  left: 75%;
+  z-index: 10;
+  transition-delay: 2s;
+  transition-duration: 5s;
+}
+
+.login-button .top-part {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  height: 102px;
+  background-color: white;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.login-button .top-part .id {
+  background-color: #075d54;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.top-part .id:hover {
+  background-color: #0a2a7b;
+}
+
+.login-button .top-part .id i {
+  position: relative;
+  top: 11px;
+}
+
+.login-button .top-part .name-logo {
+  position: relative;
+  top: 13px;
+}
+
+.login-button .top-part .name-detils {
+  position: relative;
+  top: 14px;
+}
+
+.name-detils h3 {
+  font-weight: normal;
+  margin-bottom: 4px;
+}
+
+.name-detils p {
+  margin-bottom: 9px;
+}
+
+.name-detils a {
+  text-decoration: none;
+  color: #0c519f;
+  font-size: 14px;
+}
+
+.name-detils a:hover {
+  color: #03248c;
+}
+
+.content {
+  margin-top: -11px;
+}
+
+.paragraph {
+  padding: 6px 0px 6px 0px;
+  width: 300px;
+}
+
+.paragraph:hover {
+  padding: 6px 0px 6px 0px;
+  width: 300px;
+  background-color: #d0c9c9;
+}
+
+.paragraph i {
+  position: relative;
+  left: 15px;
+}
+
+.paragraph p {
+  position: relative;
+  left: 10px;
+}
+
+.channel .paragraph {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 6px;
+  margin-left: 0px;
+  align-items: center;
+  position: relative;
+}
+
+.channel .paragraph p {
+  position: relative;
+  align-self: flex-start;
+  left: 43px;
+}
+
+.icon {
+  font-size: 19px;
+  color: #413e3e;
+}
+
+.icon:hover {
+  color: #1a1818;
+}
+
+.login-button hr {
+  position: relative;
+  left: 0px;
+}
+
+/* Apperence................................. */
+
+.Apperance {
+  background-color: white;
+  width: 270px;
+  height: 232px;
+  position: fixed;
+  left: 79%;
+  bottom: 449px;
+  z-index: 10;
+  box-shadow: 1px 3px 5px gray;
+  border-radius: 20px;
+}
+
+.Apperance hr {
+  position: relative;
+  left: 0px;
+}
+
+.Apperance-back {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+.Apperance-back i {
+  font-size: 32px;
+  position: relative;
+  left: -10px;
+  color: gray;
+}
+
+.Apperance-back h2 {
+  position: relative;
+  left: -29px;
+  color: gray;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.Apperance .Mode {
+  display: flex;
+  justify-content: start;
+  position: relative;
+  left: 0px;
+  top: 8px;
+  font-size: 25px;
+  text-decoration: none;
+  color: gray;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding: 7px 5px 7px 26px;
+}
+
+.Mode:hover {
+  padding: 7px 7px 7px 26px;
+  background-color: #e2dada;
+  border-radius: 10px;
+}
+
+.Apperance p {
+  align-content: center;
+  position: relative;
+  left: 25px;
+  color: #474444;
+  top: -4px;
+  font-size: 14px;
+}
+
+.light-theme {
+  background-color: white;
+  color: black;
+}
+
+.dark-theme {
+  background-color: black;
+  color: white;
+}
+
+@media (min-width: 1350px) and (max-width: 1402px) {
+  .login-button {
+    position: fixed;
+    left: 74%;
+  }
+
+  .Apperance {
+    position: fixed;
+    left: 74%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1350px) {
+  .login-button {
+    position: fixed;
+    left: 72%;
+  }
+
+  .Apperance {
+    position: fixed;
+    left: 75%;
+  }
+}
+
+@media (min-width: 1164px) and (max-width: 1200px) {
+  .login-button {
+    position: fixed;
+    left: 70%;
+  }
+
+  .Apperance {
+    position: fixed;
+    left: 74%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1164px) {
+  .login-button {
+    position: fixed;
+    left: 62%;
+  }
+
+  .Apperance {
+    position: fixed;
+    left: 65%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+  .login-button {
+    position: fixed;
+    left: 57%;
+  }
+
+  .Apperance {
+    position: fixed;
+    left: 61%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+  .login-button {
+    position: fixed;
+    left: 53%;
+  }
+
+  .Apperance {
+    position: fixed;
+    left: 58%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+  .login-button {
+    position: fixed;
+    left: 48%;
+  }
+
+  .Apperance {
+    position: fixed;
+    left: 52%;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+  .login-button {
+    position: fixed;
+    left: 40%;
+  }
+
+  .Apperance {
+    position: fixed;
+    left: 48%;
+  }
+
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+  .login-button {
+    position: fixed;
+    left: 29%;
+  }
+
+  .Apperance {
+    position: fixed;
+    left: 37%;
+  }
+
+}
+
+
+@media (max-width: 450px) {
+  .login-button {
+    position: fixed;
+    left: 8%;
+  }
+
+  .Apperance {
+    position: fixed;
+    left: 20%;
+    top: 55px;
+  }
+}
